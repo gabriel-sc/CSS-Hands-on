@@ -6,12 +6,19 @@
 }
 
 body {
-  background-color: #1a1a1a; /* fundo escuro estilo duelo */
+  background-color: #1a1a1a; 
   color: #eee;
   line-height: 1.6;
 }
+.header-banner {
+  display: block;            
+  width: 100%;               
+  height: 300px;            
+  object-fit: cover;         
+  margin-top: 80px;          
+}
 
-/* Cabeçalho com estilo Duel Monsters */
+
 .header {
   position: fixed;
   top: 0;
@@ -28,7 +35,7 @@ body {
   border-bottom: 2px solid #ff4500;
 }
 
-/* Sidebar com tema de cartas */
+
 aside.sidebar {
   position: sticky;
   top: 120px; 
@@ -43,14 +50,14 @@ aside.sidebar {
   font-size: 16px;
 }
 
-/* Conteúdo principal */
+
 .main-content {
   margin-left: 240px;
   padding-top: 120px;  
   position: relative;
 }
 
-/* Área de conteúdo com efeito carta */
+
 .content {
   position: relative;
   padding: 30px;
@@ -62,7 +69,7 @@ aside.sidebar {
   box-shadow: 0 0 15px #ff4500;
 }
 
-/* Botão de voltar ao topo com estilo Duel Monster */
+
 .scroll-btn {
   position: fixed;
   bottom: 20px;
@@ -86,7 +93,7 @@ aside.sidebar {
   box-shadow: 0 6px 12px rgba(255, 69, 0, 0.8);
 }
 
-/* Modal com estilo épico de duelo */
+
 .modal {
   display: none; 
   position: fixed;
@@ -99,7 +106,7 @@ aside.sidebar {
   backdrop-filter: blur(4px);
 }
 
-/* Conteúdo do modal estilo carta de duelo */
+
 .modal-content {
   background: linear-gradient(to bottom right, #1f1f3a, #0a1f44);
   color: #ffd700;
@@ -113,7 +120,7 @@ aside.sidebar {
   text-align: center;
 }
 
-/* Botão fechar do modal com destaque */
+
 .close-btn {
   position: absolute;
   top: 10px;
